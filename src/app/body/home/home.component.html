@@ -1,0 +1,21 @@
+<div class="home">
+  <ul class='-center'>
+    <li *ngFor="let data of datas"
+        [ngClass]="data.className"
+        (mouseenter)="_mouseEnterHandle($event,data.id)"
+        (mouseout)="_mouseOutHandler($event,data.id)">
+      <div class='w'>
+        <div class='f'>
+          <svg viewBox='0 0 180 180'>
+            <image preserveAspectRatio='xMidYMid slice' [attr.xlink:href]="data.imgUrl"></image>
+          </svg>
+        </div>
+        <div class='b'>
+          <h3>
+            {{data.name}}
+          </h3>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
