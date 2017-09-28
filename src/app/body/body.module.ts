@@ -4,17 +4,19 @@ import {ShareModule} from '../share/share.module';
 import {BodyComponent} from './body.component';
 import {HomeComponent} from './home/home.component';
 import {BodyRoutingModule} from './body-routing.module';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import {SidebarComponent} from './sidebar/sidebar.component';
+import {ArticleComponent} from './article/article.component';
 
 @NgModule({
   imports: [
     ShareModule,
-    BodyRoutingModule
+    BodyRoutingModule,
   ],
   declarations: [
     BodyComponent,
     HomeComponent,
-    SidebarComponent
+    SidebarComponent,
+    ArticleComponent
   ],
   exports: [
     BodyComponent
