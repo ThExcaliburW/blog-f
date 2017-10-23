@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArticleWriteComponent implements OnInit {
 
+  model = 'some text';
   constructor() { }
 
   ngOnInit() {

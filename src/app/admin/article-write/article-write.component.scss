@@ -15,7 +15,15 @@
   }
   .content {
     padding: 40px;
-    border: none;
-    outline: medium;
+    textarea {
+      border: none;
+      outline: medium;
+      resize: none;
+      height: 100%;
+      width: 100%;
+      font-size: 26px;
+      line-height: 1.7;
+      font-weight: normal;
+    }
   }
 }

@@ -1,6 +1,7 @@
 .article-list {
   border-right: 1px solid #d9d9d9;
   color: #555555;
+  overflow: auto;
   .create-article {
     padding: 20px 0 20px 25px;
     font-size: 15px;
@@ -25,9 +26,11 @@
       padding-left: 20px;
       cursor: pointer;
       border-bottom: 1px solid #d9d9d9;
+      font-size: 18px;
       &.active {
         background-color: #ececec;
         border-left: 5px solid #ec7259 !important;
+        color: #000;
       }
       &:hover {
         background-color: #ececec;

@@ -3,6 +3,7 @@
   background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
   background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
   color: #ffffff;
+  overflow: auto;
   .return-home {
     padding: 20px 20px;
     a {
@@ -14,8 +15,8 @@
       transition: 0.1s ease;
       -webkit-transition: 0.1s ease;
       text-align: center;
-      cursor:pointer;
-      &:hover{
+      cursor: pointer;
+      &:hover {
         border: 1px solid rgba(255, 255, 255, 1);
       }
     }
@@ -23,7 +24,7 @@
   .create-label {
     padding: 10px 20px;
     font-size: 14px;
-    cursor:pointer;
+    cursor: pointer;
     i {
       padding-right: 5px;
     }
@@ -37,15 +38,15 @@
       height: 40px;
       line-height: 40px;
       padding-left: 20px;
-      cursor:pointer;
+      cursor: pointer;
       &.active {
         background-color: #646464;
         border-left: 3px solid #ec7259;
-        opacity:0.9;
+        opacity: 0.9;
       }
       &:hover {
         background-color: #646464;
-        opacity:0.9;
+        opacity: 0.9;
       }
     }
   }
