@@ -1,0 +1,21 @@
+.article-write {
+  .title {
+    box-sizing: content-box !important;
+    line-height: 40px;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 0 30px 10px 40px;
+    input {
+      width: 100%;
+      height: 100%;
+      line-height: 40px;
+      font-size: 30px;
+      border: none;
+      outline: medium;
+    }
+  }
+  .content {
+    padding: 40px;
+    border: none;
+    outline: medium;
+  }
+}

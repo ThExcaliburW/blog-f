@@ -9,6 +9,8 @@ import {ArticleListComponent} from './article-list/article-list.component';
 import {ArticleWriteComponent} from './article-write/article-write.component';
 import {LoginComponent} from './login/login.component';
 
+import {AuthGuardService} from './services/auth-guard.service';
+
 @NgModule({
   imports: [
     ShareModule,
@@ -21,6 +23,9 @@ import {LoginComponent} from './login/login.component';
     ArticleListComponent,
     ArticleWriteComponent,
     LoginComponent,
+  ],
+  providers: [
+    AuthGuardService
   ]
 })
 export class AdminModule {
