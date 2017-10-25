@@ -5,7 +5,6 @@ import {BodyRoutingModule} from './body-routing.module';
 
 import {BodyComponent} from './body.component';
 import {HomeComponent} from './home/home.component';
-import {SidebarComponent} from './sidebar/sidebar.component';
 import {ArticleComponent} from './article/article.component';
 
 @NgModule({
@@ -17,7 +16,6 @@ import {ArticleComponent} from './article/article.component';
   declarations: [
     BodyComponent,
     HomeComponent,
-    SidebarComponent,
     ArticleComponent
   ],
   exports: [
